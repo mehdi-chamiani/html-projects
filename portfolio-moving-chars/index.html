@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Mehdi Chamiani Portfolio</title>
+	</head>
+	<body>
+		<div class="header">
+			<nav>
+				<img src="images/logo.png" alt="Logo" class="logo" />
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Skills</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Contact Me</a></li>
+				</ul>
+				<img src="images/menu.png" alt="menu-icon" class="menu-icon" />
+			</nav>
+			<div class="text-box">
+				<h1>I'm <span class="animated-text"></span></h1>
+				<p>
+					I will meke value for your Web Development projects, so what are you
+					waiting for?
+				</p>
+				<a href="#">Contact Me</a>
+				<a href="#" class="btn">View My CV</a>
+			</div>
+			<img src="images/user.png" alt="My Image" class="my-image" />
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script>
+			let typed = new Typed('.animated-text', {
+				strings: ['Mehdi Chamiani', ' a Web Developer', ' UI Designer'],
+				typeSpeed: 100,
+				backSpeed: 100,
+				loop: true,
+			});
+		</script>
+	</body>
+</html>
